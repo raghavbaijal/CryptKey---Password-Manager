@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    background-image: url('https://th.bing.com/th/id/OIP.xlQO4E8tXMrB6LtTxlPhPwHaE8?w=306&h=204&c=8&rs=1&qlt=90&r=0&o=6&dpr=1.5&pid=3.1&rm=2  ') no-repeat center center fixed;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    backdrop-filter: blur(5px);
+    transition: background 0.3s;
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Dark Theme Styles */
+  body.dark {
+    background-color: #121212;
+    background-image: none;
+    color: #f1f1f1;
+  }
+  
+  body.dark .container {
+    background: rgba(30, 30, 30, 0.95);
+  }
+  
+  body.dark h2, 
+  body.dark h3 {
+    color: #f1f1f1;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .entry {
+    background: #f1f3f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .entry-info {
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .entry-buttons button {
+    margin-left: 10px;
+    background-color: #6c757d;
+  }
+  
+  .entry-buttons button:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Dark mode for entries */
+  body.dark .entry {
+    background: #2a2a2a;
+  }
+  
+  body.dark .entry-info {
+    color: #f1f1f1;
+  }
+  
+  body.dark input, 
+  body.dark button {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border: 1px solid #444;
+  }
+  
+  body.dark button:hover {
+    background-color: #333;
+  }
+  
